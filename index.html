@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Yaremche Farmers Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header id="navbar">
+        <nav class="navbar navbar-expand-lg py-4 bg-light">
+            <div class="container-fluid px-2 px-sm-4">
+                <a class="navbar-brand" href="index.html">The Yaremche Farmers Market</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ms-auto text-center text-sm-start">
+                        <li class="nav-item me-2">
+                            <a class="nav-link active" aria-current="page" href="#panelsStayOpen-headingOne">About</a>
+                        </li>
+
+                        <li class="nav-item me-2">
+                            <a class="nav-link active" aria-current="page" href="#panelsStayOpen-headingTwo">Our Farmers</a>
+                        </li>
+
+                        <li class="nav-item me-2">
+                            <a class="nav-link active" aria-current="page" href="#panelsStayOpen-headingThree">Garden Basket</a>
+                        </li>
+
+                        <li class="nav-item me-2">
+                            <a class="nav-link active" aria-current="page" href="#panelsStayOpen-headingFour">Vendor Form</a>
+                        </li>
+
+                        <li class="nav-item me-2">
+                            <a class="nav-link active" aria-current="page" href="#panelsStayOpen-headingFive">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#info">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/image-beans.jpg" alt="Green beans" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></img>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/image-pears.jpg" alt="Pears" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></img>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/image-blueberries.jpg" alt="Blueberries" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></img>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/image-asparagus.jpg" alt="Asparagus" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></img>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/image-walnuts.jpg" alt="Walnuts" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></img>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="accordion accordion-flush container" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <div class="accordion-header" id="panelsStayOpen-headingOne">
+                    <div class="row featurette py-md-3 my-5">
+                        <div class="col-md-5 order-md-2 px-3 ps-xl-0">
+                            <img src="assets/image-landscape.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid w-100" alt="Beautiful mountains landscape" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+                        </div>
+
+                        <div class="col-md-7 order-md-1 text-center text-sm-start px-3 my-3 my-md-0 pe-xl-5">
+                            <h2 class="featurette-heading fw-normal lh-2 my-5 mt-md-0">
+                                The Yaremche Farmers Market. <span class="text-muted">We connect consumers and farmers.</span>
+                            </h2>
+
+                            <p class="lead">
+                                We are committed to growing, buying, and promoting local food and flowers to support small, 
+                                family run farms and their families, and help preserve and protect farmland and open space.
+                            </p>
+
+                            <button class="btn btn-outline-dark collapsed fs-5 fw-light p-2 ps-3 ps-sm-4 pe-sm-3 mt-4 mt-md-3 mt-lg-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                Learn more!
+                                <i class="bi bi-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse pb-md-3" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body text-center bg-light mx-1 mb-5 px-sm-4 px-md-5">
+                        <h2 class="display-4 fw-light my-5">The Yaremche Farmers Market</h2>
+
+                        <p class="lead my-5 px-xl-4 px-xxl-5">
+                            Set in the middle of beautiful <span class="fw-normal fs-2 text-muted">Ukrainian Carpathian Mountains</span>,
+                            our fields are bursting with vegetable plants, fruit trees and unique flowers that reflect 
+                            the season, from fragrant sweet peas in the spring to all sorts of squash in the fall and 
+                            countless varieties in between. 
+                        </p>
+
+                        <p class="lead my-5 px-xl-4 px-xxl-5">
+                            <span class="fw-normal fs-2">The Yaremche Farmers Market</span> was formed to bring the 
+                            pleasures of eating local food to the residents of <span class="fw-normal fs-2 text-muted">Yaremche</span> 
+                            and nearby communities by connecting consumers to the farmers who use sustainable growing 
+                            methods and to encourage <span class="fw-normal fs-2 text-muted">Yaremche</span> residents and businesses
+                            to move toward greater environmental sustainability.
+                        </p>
+
+                        <p class="lead my-5 px-xl-4 px-xxl-5">
+                            <span class="fw-normal fs-2">The Yaremche Farmers Market</span> at <span class="fw-normal fs-2 text-muted">Lisova Farm</span> 
+                            was founded in 2008. It is sponsored by the Town of <span class="fw-normal fs-2 text-muted">Yaremche</span>, 
+                            and is a weekly market.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <div class="row featurette py-md-3 my-5">
+                        <div class="col-md-5 px-3 pe-xl-0">
+                            <img src="assets/image-farmer.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid w-100" alt="A farmer" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+                        </div>
+
+                        <div class="col-md-7 text-center text-sm-start px-3 my-3 my-md-0 ps-xl-5">
+                            <h2 class="featurette-heading fw-normal lh-2 my-5 mt-md-0">
+                                <span class="text-muted">Stop by the Lisova Farm.</span> Meet our local growers.
+                            </h2>
+
+                            <p class="lead">
+                                Every week, you'll have a chance to meet directly with the farmers at the beautiful 
+                                Sunday morning farmer’s market.
+                            </p>
+
+                            <button class="btn btn-outline-dark collapsed fs-5 fw-light p-2 ps-3 ps-sm-4 pe-sm-3 mt-4 mt-md-3 mt-lg-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Learn more!
+                                <i class="bi bi-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse pb-md-3" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body bg-light mx-1 mb-5 px-sm-4 px-md-5 px-lg-0 px-xl-5">
+                        <p class="lead text-center my-5 px-lg-5 px-xl-5">
+                            Buying local food supports <span class="fw-normal fs-2 text-muted">local farmers</span> and their 
+                            livelihood, preserves farmland, and benefits the local economy and small business. All of our 
+                            farmers are local to the region, and most live and farm no more than 
+                            <span class="fw-normal fs-2">50 miles</span> from <span class="fw-normal fs-2 text-muted">Yaremche</span>.
+                        </p>
+
+                        <div class="row px-lg-4 px-xxl-5">
+                            <div class="col-lg-4 text-center mb-5 px-xl-3 px-xxl-4 ">
+                                <img src="assets/image-green-fabrik.jpg" class="bd-placeholder-img rounded-circle" alt="Green Fabrik Farmer" width="140" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+                                <h2 class="fw-normal my-4">Green Fabrik</h2>
+                                <p class="fw-normal fs-5 text-muted">Nadvirna, IF</p>
+                                <p class="lead">
+                                    We have been growing for farmers markets for over 20 years in the Prykarpattia region. 
+                                    We started with vegetables such as cabbage, broccoli and cauliflower. Over the years we have 
+                                    put in over a thousand apple trees, including over 50 varieties of heirloom apples as 
+                                    well as 25 better known varieties. We also grow raspberries, black berries, gooseberries, 
+                                    currants, blueberries, peaches and pears. Recently we have planted sweet cherry trees.
+                                </p>
+                            </div>
+
+                            <div class="col-lg-4 text-center mb-5 px-xl-3 px-xxl-4">
+                                <img src="assets/image-lisova-farm.jpg" class="bd-placeholder-img rounded-circle" alt="Lisova Farm Farmer" width="140" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+                                <h2 class="fw-normal my-4">Lisova Farm</h2>
+                                <p class="fw-normal fs-5 text-muted">Yaremche, IF</p>
+                                <p class="lead">
+                                    Lisova Farm is now in its twelfth year of growing fine certified organic produce in ecological harmony with 
+                                    the natural world. We base our practice decisions on an unwavering goal to maintain and improve the soil. 
+                                    Regenerative agriculture nourishes and heals our planet as we enjoy the health benefits and 
+                                    pleasure of eating naturally grown food.
+                                </p>
+                            </div>
+
+                            <div class="col-lg-4 text-center mb-5 px-xl-3 px-xxl-4">
+                                <img src="assets/image-wild-florals.jpg" class="bd-placeholder-img rounded-circle" alt="Wild Florals Grower" width="140" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+                                <h2 class="fw-normal my-4">Wild Florals</h2>
+                                <p class="fw-normal fs-5 text-muted">Kolomyya, IF</p>
+                                <p class="lead">
+                                    Wild Florals is a small cut flower garden in Kolomyya, IF. We are specialized in tulips 
+                                    and dahlias and grow also other popular annuals and perennials mainly to professionals. 
+                                    Our palette consists of muted and pastels colors. Season starts in the end of April and 
+                                    lasts until the frost hits in the fall.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header" id="panelsStayOpen-headingThree">
+                    <div class="row featurette py-md-3 my-5">
+                        <div class="col-md-5 order-md-2 px-3 ps-xl-0">
+                            <img src="assets/image-apples.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid w-100" alt="A basket of apples" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+                        </div>
+
+                        <div class="col-md-7 order-md-1 text-center text-sm-start px-3 my-3 my-md-0 pe-xl-5">
+                            <h2 class="featurette-heading fw-normal lh-2 my-5 mt-md-0">
+                                <span class="text-muted">Sigh up for the</span> Garden Basket <span class="text-muted">today.</span>
+                            </h2>
+
+                            <p class="lead">
+                                Garden Basket is a type of local food and/or seasonal flower subscription 
+                                where you receive a basket of food and/or flowers once a week.
+                            </p>
+
+                            <button class="btn btn-outline-dark collapsed fs-5 fw-light p-2 ps-3 ps-sm-4 pe-sm-3 mt-4 mt-md-3 mt-lg-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Learn more!
+                                <i class="bi bi-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse pb-md-3" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body bg-light mx-1 mb-5 px-sm-4 px-md-5 px-lg-0 px-xl-5">
+                        <div class="pb-md-4 text-center px-lg-5">
+                            <h2 class="display-4 fw-light my-5">The 2023 Garden Basket Options</h2>
+
+                            <p class="lead mb-5">
+                                Through our <span class="fw-normal fs-2">Garden Basket</span> <span class="fw-normal fs-2 text-muted">subscription</span>,
+                                you will have access to unbelievable quality food and flowers that you can’t find anywhere else. 
+                                <br>
+                                Our <span class="fw-normal fs-2">FLORAL Bouquet</span> makes a unique gift for anyone! It is 
+                                available <span class="fw-normal fs-2 text-muted">May</span> through <span class="fw-normal fs-2 text-muted">September</span>.
+                            </p>
+                        </div>
+
+                        <div class="row row-cols-1 row-cols-lg-3 text-center px-lg-4 px-xxl-5">
+                            <div class="col">
+                                <div class="card mb-5 border-info shadow-sm">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal mb-3 pb-3 border-bottom border-info">FLORAL Bouquet</h4>
+                                        <h4 class="card-title pricing-card-title fs-1 mb-3">$125<small class="fw-light text-muted">/mo</small></h4>
+                                        <ul class="list-unstyled fw-light pb-xl-4 pb-xxl-0">
+                                            <li>A premium bunch of unique flowers</li>
+                                            <li>About 8 – 10 stems in each bunch</li>
+                                            <li>Beautiful hand-selected blooms</li>
+                                            <li>Unbelievable quality cut flowers</li>
+                                        </ul>
+                                        <a href="#panelsStayOpen-headingFive" class="btn btn-outline-info fs-5 fw-normal py-2 w-75 mt-2" role="button">Get started!</a>
+                                    </div>          
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card mb-5 border-info shadow-sm">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal mb-3 pb-3 border-bottom border-info">Fruits + Veggies</h4>
+                                        <h4 class="card-title pricing-card-title fs-1 mb-3">$160<small class="fw-light text-muted">/mo</small></h4>
+                                        <ul class="list-unstyled fw-light">
+                                            <li>Peaches, pears, apples, plums</li>
+                                            <li>Asparagus, broccoli, cauliflower, kale, squash, eggplant, peppers, tomatoes, carrots, cucumbers, beans, radishes, peas</li>
+                                        </ul>
+                                        <a href="#panelsStayOpen-headingFive" class="btn btn-outline-info fs-5 fw-normal py-2 w-75 mt-2" role="button">Get started!</a>
+                                    </div>          
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card mb-5 border-info shadow-sm">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal mb-3 pb-3 border-bottom border-info">Berries + Honey</h4>
+                                        <h4 class="card-title pricing-card-title fs-1 mb-3">$180<small class="fw-light text-muted">/mo</small></h4>
+                                        <ul class="list-unstyled fw-light">
+                                            <li>Blueberries, blackberries, raspberries, strawberries, cherries, gooseberries</li>
+                                            <li>1 jar of raw wildflower honey</li>
+                                            <li>1 artisan loaf of bread</li>
+                                        </ul>
+                                        <a href="#panelsStayOpen-headingFive" class="btn btn-outline-info fs-5 fw-normal py-2 w-75 mt-2" role="button">Get started!</a>
+                                    </div>          
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-cols-1 row-cols-lg-3 text-center px-lg-4 px-xxl-5">
+                            <div class="col">
+                                <div class="card mb-5 border-info shadow-sm">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal mb-3 pb-3 border-bottom border-info">Cheese + Herbs</h4>
+                                        <h4 class="card-title pricing-card-title fs-1 mb-3">$145<small class="fw-light text-muted">/mo</small></h4>
+                                        <ul class="list-unstyled fw-light">
+                                            <li>3 types of artisan cheese</li>
+                                            <li>Arugula, spinach, celery, basil, rosemary, sage, cilantro, thyme, garlic, scallions</li>
+                                        </ul>
+                                        <a href="#panelsStayOpen-headingFive" class="btn btn-outline-info fs-5 fw-normal py-2 w-75 mt-2" role="button">Get started!</a>
+                                    </div>          
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card mb-5 border-info shadow-sm">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal mb-3 pb-3 border-bottom border-info">"3 in 1" Food Basket</h4>
+                                        <h4 class="card-title pricing-card-title fs-1 mb-3">$445<small class="fw-light text-muted">/mo</small></h4>
+                                        <ul class="list-unstyled fw-light pb-lg-4 pb-xxl-0">
+                                            <li>1 Fruits + Veggies Basket</li>
+                                            <li>1 Berries + Honey Basket</li>
+                                            <li>1 Cheese + Herbs Basket</li>                                        
+                                        </ul>
+                                        <a href="#panelsStayOpen-headingFive" class="btn btn-outline-info fs-5 fw-normal py-2 w-75 mt-2" role="button">Get started!</a>
+                                    </div>          
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card mb-5 border-info shadow-sm">
+                                    <div class="card-body">
+                                        <h4 class="fw-normal mb-3 pb-3 border-bottom border-info">"All in 1" Basket</h4>
+                                        <h4 class="card-title pricing-card-title fs-1 mb-3">$535<small class="fw-light text-muted">/mo</small></h4>
+                                        <ul class="list-unstyled fw-light pb-lg-4 pb-xxl-0">
+                                            <li>1 FLORAL Bouquet</li>
+                                            <li>1 "3 in 1" Food Basket</li>
+                                            <li>1 Bottle of wine of your selection</li>
+                                        </ul>
+                                        <a href="#panelsStayOpen-headingFive" class="btn btn-outline-info fs-5 fw-normal py-2 w-75 mt-2" role="button">Get started!</a>
+                                    </div>          
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header" id="panelsStayOpen-headingFour">
+                    <div class="row featurette py-md-3 my-5">
+                        <div class="col-md-5 px-3 pe-xl-0">
+                            <img src="assets/image-grape.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid w-100" alt="Bunch of grapes" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+                        </div>
+
+                        <div class="col-md-7 text-center text-sm-start px-3 my-3 my-md-0 ps-xl-5">
+                            <h2 class="featurette-heading fw-normal lh-2 my-5 mt-md-0">
+                                <span class="text-muted">Become a part of</span> the seasonal food and flower movement<span class="text-muted">.</span>
+                            </h2>
+
+                            <p class="lead">
+                                Every member of the Yaremche Farmers' Market uses sustainable growing and/or business practices 
+                                and we encourage passionate farmers, florists and artisans to join us!
+                            </p>
+
+                            <button class="btn btn-outline-dark collapsed fs-5 fw-light p-2 ps-3 ps-sm-4 pe-sm-3 mt-4 mt-md-3 mt-lg-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                Start now!
+                                <i class="bi bi-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse pb-md-3" aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body bg-light text-center mx-1 mb-5 px-sm-4 px-lg-5">
+                        <h2 class="display-4 fw-light mt-5">New Vendor Form</h2>
+
+                        <form class="row g-3 contact-form px-xl-5 mx-xxl-5" action="https://formspree.io/f/xgebeznl" method="post">
+                            <input class="visually-hidden" name="Subject"  value="New Vendor Form Submission">
+
+                            <h2 class="fw-normal my-5 lh-2">
+                                <span class="text-muted">Please enter your</span> contact information<span class="text-muted">.</span>
+                            </h2>
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="First Name*" name="First Name" required spellcheck="false">
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Last Name*" name="Last Name" required spellcheck="false">
+                            </div>
+
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" placeholder="Company Name*" name="Company Name" required spellcheck="false">
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Email Address*" name="Email Address" required spellcheck="false">
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" placeholder="Phone Number" name="Phone Number">
+                            </div>
+
+                            <h2 class="fw-normal my-5 lh-2">
+                                <span class="text-muted">And, your</span> mailing address<span class="text-muted">.</span>
+                            </h2>
+
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Street Address" name="Street Address">
+                            </div>
+
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Street Address 2" name="Street Address 2">
+                            </div>
+
+                            <div class="col-md-5">
+                                <input type="text" class="form-control" placeholder="City" name="City">
+                            </div>
+
+                            <div class="col-md-4">
+                                <select class="form-select" name="province">
+                                        <option value="" selected="">Province</option>
+                                        <option value="CK">Cherkasy</option>
+                                        <option value="CH">Chernihiv</option>
+                                        <option value="CV">Chernivtsi</option>
+                                        <option value="DP">Dnipropetrovsk</option>
+                                        <option value="DT">Donetsk</option>
+                                        <option value="IF">Ivano-Frankivsk</option>
+                                        <option value="KK">Kharkiv</option>
+                                        <option value="KS">Kherson</option>
+                                        <option value="KM">Khmelnytskyi</option>
+                                        <option value="KH">Kirovohrad</option>
+                                        <option value="KV">Kyiv</option>
+                                        <option value="LH">Luhansk</option>
+                                        <option value="LV">Lviv</option>
+                                        <option value="MY">Mykolaiv</option>
+                                        <option value="OD">Odesa</option>
+                                        <option value="PL">Poltava</option>
+                                        <option value="RV">Rivne</option>
+                                        <option value="SM">Sumy</option>
+                                        <option value="TP">Ternopil</option>
+                                        <option value="VI">Vinnytsia</option>
+                                        <option value="VO">Volyn</option>
+                                        <option value="ZK">Zakarpattia</option>
+                                        <option value="ZP">Zaporizhzhia</option>
+                                        <option value="ZT">Zhytomyr</option>
+                                        <option value="Crimea" disabled="">Autonomous Republic of Crimea</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="Postal Code" name="Postal Code">
+                            </div>
+
+                            <h2 class="fw-normal my-5 lh-2">
+                                <span class="text-muted">Select the anticipated</span>
+                                date of your participation<span class="text-muted">, and add the</span>
+                                comments<span class="text-muted">, if needed.</span>
+                            </h2>
+
+                            <div class="col-md-12">
+                                <input type="date" class="form-control" name="Anticipated Participation Date" required>
+                            </div>
+
+                            <div class="col-md-12">
+                                <textarea class="form-control" rows="5" placeholder="Comments" name="Comments"></textarea>
+                            </div>
+
+                            <h2 class="fw-normal my-5 lh-2">
+                                <span class="text-muted">Sigh up for</span> email
+                                <span class="text-muted">and stay in the loop with our updates.</span>
+                            </h2>
+
+                            <div class="form-check form-switch text-start my-0 ms-sm-2">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked name="Subscription" value="yes">
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Get updates!</label>
+                            </div>
+
+                            <div class="col-12 my-5">
+                                <button type="submit" class="btn btn-outline-success fs-5 fw-light py-2 px-4 px-sm-5">Join</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header" id="panelsStayOpen-headingFive">
+                    <div class="row featurette py-md-3 my-5">
+                        <div class="col-md-5 order-md-2 px-3 ps-xl-0">
+                            <img src="assets/image-sprout.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid w-100" alt="A sprout" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+                        </div>
+
+                        <div class="col-md-7 order-md-1 text-center text-sm-start px-3 my-3 my-md-0 pe-xl-5">
+                            <h2 class="featurette-heading fw-normal lh-2 my-5 mt-md-0">
+                                <span class="text-muted">Want to send us a</span> message<span class="text-muted">?</span>
+                            </h2>
+
+                            <p class="lead">
+                                Let us know what you need.
+                            </p>
+
+                            <button class="btn btn-outline-dark collapsed fs-5 fw-light p-2 ps-3 ps-sm-4 pe-sm-3 mt-4 mt-md-3 mt-lg-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                Yes, please!
+                                <i class="bi bi-arrow-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse pb-md-3" aria-labelledby="panelsStayOpen-headingFive">
+                    <div class="accordion-body bg-light text-center mx-1 mb-5 px-sm-4 px-lg-5">
+                        <h2 class="display-4 fw-light mt-5">Contact Us</h2>
+
+                        <form class="row g-3 contact-form px-xl-5 mx-xxl-5" action="https://formspree.io/f/mvonowde" method="post">
+                            <input class="visually-hidden" name="Subject"  value="Contact Form Submission">
+
+                            <h2 class="fw-normal my-5">
+                                <span class="text-muted">Say</span> hello!
+                            </h2>
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="First Name*" name="First Name" required spellcheck="false">
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Last Name*" name="Last Name" required spellcheck="false">
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Email Address*" name="Email Address" required spellcheck="false">
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" placeholder="Phone Number" name="Phone Number">
+                            </div>
+
+                            <div class="col-md-12">
+                                <textarea class="form-control" rows="5" placeholder="Message" name="Message"></textarea>
+                            </div>
+
+                            <div class="col-12 my-5">
+                                <button type="submit" class="btn btn-outline-success fs-5 fw-light py-2 px-4 px-sm-5">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100">
+            <video autoplay muted loop playinline width="100%">
+                <source src="assets/video-white-allium.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="container text-center bg-light my-5 py-5" id="info">
+            <h2 class="display-5 fw-light my-5">
+                The Yaremche Farmers Market
+            </h2>
+
+            <h2 class="fw-light mb-3">
+                April <span class="text-muted">through</span> October
+            </h2>
+
+            <h2 class="fw-light mt-3">
+                <span class="text-muted">Every</span> Sunday<span class="text-muted">,</span>
+                8 am <span class="text-muted">–</span> 1 pm<span class="text-muted">, rain or shine!</span>
+            </h2>
+
+            <div class="col-md-5 my-5 mx-auto">
+                <img src="assets/image-lemon.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  alt="A fresh lemon" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+            </div>
+
+            <p class="lead mt-5 lh-1">Lisova Farm</p>
+            <p class="lead mb-5 lh-1">41 Svobody Street, Yaremche, IF 78500</p>
+        </div>
+
+        <div class="my-5" id="location" style="filter:grayscale(1);">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21171.98073483828!2d24.532018676678472!3d48.44698158072177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47372414617d4c5d%3A0x59c67c0062c79f3a!2sSouvenir%20market!5e0!3m2!1sen!2sus!4v1673043071330!5m2!1sen!2sus" 
+                width="100%" 
+                height="350px" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div class="w-100">
+            <video autoplay muted loop playinline width="100%">
+                <source src="assets/video-red-flower.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+
+    <footer class="px-lg-5 py-3 d-flex flex-column bg-light">
+        <p class="align-self-end m-0">
+            <a class="text-decoration-none link-dark" href="#navbar">
+                Back to top
+                <i class="bi bi-arrow-up pe-2"></i>
+            </a>
+        </p>
+
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+                <a href="mailto:yaremche_info@gmail.com" target="_blank" class="nav-link px-2 text-decoration-none link-dark">
+                    <i class="bi bi-envelope"></i>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#location" class="nav-link px-2 text-decoration-none link-dark">
+                    <i class="bi bi-geo-alt-fill"></i>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="https://www.instagram.com/" target="_blank" class="nav-link px-2 text-decoration-none link-dark">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </li>
+        </ul>
+
+        <p class="text-center text-muted fw-light mx-2">
+            © 2017 – 2023, The Yaremche Farmers Market, Inc
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
