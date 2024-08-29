@@ -1,10 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/alina-fedoriv-89868720b/)
-
-<br />
 <a href="https://alinafedoriv-farmers-market.netlify.app/" target="_blank">
     <img src="assets/favicon.ico" alt="Logo" width="90" height="90">
 </a>
@@ -40,7 +36,7 @@
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#project-links">Project Links</a></li>
   </ol>
 </details>
 
@@ -77,13 +73,13 @@ The website is constructed using HTML and leverages Bootstrap for a responsive a
 <div align="center">
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
-</div> 
+</div>
 
 <br />
 <br />
 
-- [Bootstrap](https://getbootstrap.com) - A popular front-end framework that simplifies the design and development of responsive and visually appealing websites.
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The standard markup language for creating web pages and web applications.
+-   [Bootstrap](https://getbootstrap.com) - A popular front-end framework that simplifies the design and development of responsive and visually appealing websites.
+-   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - The standard markup language for creating web pages and web applications.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,10 +109,11 @@ To view the website locally, follow these steps:
     ```bash
     git clone https://github.com/afedoriv/the-yaremche-farmers-market.git
     ```
+
 2. Open in Browser:
 
     Open the **`index.html`** file in your preferred web browser.
-       
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
@@ -127,18 +124,17 @@ Feel free to leverage this codebase as a template for creating similar websites.
 
 ## Acknowledgments
 
-- [Formspree](https://formspree.io/) - Simplifies form handling with an easy-to-use backend service for websites.
-- [Netlify](https://www.netlify.com/) - Streamlines deployment and hosting for global accessibility and reliability.
-- [Coverr](https://coverr.co/) - Offers visually appealing, free videos to enhance your website's aesthetics.
-- [Unsplash](https://unsplash.com/) - Provides a diverse collection of high-quality, free-to-use images for website visuals.
-- [Pexels](https://www.pexels.com/) - Offers a valuable resource for free stock photos and videos to enhance your website's appeal.
+-   [Formspree](https://formspree.io/) - Simplifies form handling with an easy-to-use backend service for websites.
+-   [Netlify](https://www.netlify.com/) - Streamlines deployment and hosting for global accessibility and reliability.
+-   [Coverr](https://coverr.co/) - Offers visually appealing, free videos to enhance your website's aesthetics.
+-   [Unsplash](https://unsplash.com/) - Provides a diverse collection of high-quality, free-to-use images for website visuals.
+-   [Pexels](https://www.pexels.com/) - Offers a valuable resource for free stock photos and videos to enhance your website's appeal.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contact
+## Project Links
 
-Alina Fedoriv - fedoriv2023@gmail.com
-
-Project Link - [https://github.com/afedoriv/the-yaremche-farmers-market.git](https://github.com/afedoriv/the-yaremche-farmers-market.git)
+-   **Live Demo:** [The Yaremche Farmers Market Website](https://alinafedoriv-farmers-market.netlify.app/)
+-   **Project Repository:** [The Yaremche Farmers Market GitHub](https://github.com/afedoriv/the-yaremche-farmers-market)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
